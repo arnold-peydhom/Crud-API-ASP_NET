@@ -1,0 +1,15 @@
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\bin\Debug\net6.0\Domain.dll
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\bin\Debug\net6.0\Domain.pdb
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\Mes projets Web API  C# .NET\WebCrudAPI\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
