@@ -13,7 +13,7 @@ namespace Domain.Repositories
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-               "Data Source =DESKTOP-ARNOLD-\\SQLEXPRESS;Initial Catalog = CrudAPI");
+               "Data Source=DESKTOP-ARNOLD-\\SQLEXPRESS;Initial Catalog=CrudAPI;Integrated Security=SSPI;");
         }
     }
 }

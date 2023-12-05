@@ -34,7 +34,7 @@ namespace WebCrudAPI.Presentation.Controllers
         }
 
         [HttpPut()]
-        public IActionResult UpdateUser(UserModel user)
+        public IActionResult UpdateUser([FromBody] UserModel user)
         {
             _userService.UpdateUser(user);
             return NoContent();

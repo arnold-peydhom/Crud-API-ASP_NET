@@ -6,21 +6,21 @@ namespace Infrastructure.Services
 {
     public class UserService
     {
-        private readonly UserRepository _userService;
+        private readonly UserRepository _userRepository;
 
         public UserService()
         {
-            _userService = new UserRepository();
+            _userRepository = new UserRepository();
         }
 
         public List<User> GetAllUsers()
         {
-            return _userService.GetAllUsers();
+            return _userRepository.GetAllUsers();
         }
 
         public User GetUserById(int id)
         {
-            return _userService.GetUserById(id);
+            return _userRepository.GetUserById(id);
         }
 
         public bool AddUser(UserModel user)
@@ -38,24 +38,24 @@ namespace Infrastructure.Services
                 LastName = user.LastName,
                 Profession = user.Profession,
             };
-            _userService.AddUser(userConvert);
+            _userRepository.AddUser(userConvert);
             return true;
         }
 
         public bool DeleteUser(int id)
         {
-            var getUserById = _userService.GetUserById(id);
+            var getUserById = _userRepository.GetUserById(id);
             if (getUserById is null)
             {
                 return false;
             }
-            _userService.DeleteUser(id);
+            _userRepository.DeleteUser(id);
             return true;
         }
 
         public bool UpdateUser(UserModel user)
         {
-            var getUserById = _userService.GetUserById(user.UserId);
+            var getUserById = GetUserById(user.UserId);
             if (getUserById is null)
             {
                 return false;
@@ -68,7 +68,7 @@ namespace Infrastructure.Services
                 LastName = user.LastName,
                 Profession = user.Profession,
             };
-            _userService.UpdateUser(userConvert);
+            _userRepository.UpdateUser(userConvert);
             return true;
         }
     }
